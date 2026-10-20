@@ -19,7 +19,7 @@ I build products end to end: event-driven services with Kafka, RabbitMQ and Redi
 | **[Telecom Platform](https://github.com/emircanozdag/telecom-platform)** | Event-driven microservices that track mobile data usage, bill overage and alert subscribers. Built around the patterns production systems actually need: transactional outbox, idempotent consumers, retries and dead-letter queues. | .NET 8 · Kafka · RabbitMQ · Redis · PostgreSQL · YARP · Testcontainers |
 | **[Akıllı Hesap Bölüşme](https://github.com/emircanozdag/akilli-hesap-bolusme)** | Cross-platform bill-splitting app: scan a receipt and AI extracts the items, then a tested split engine handles tax, tip and rounding down to the cent. | React Native (Expo) · React · Hono · Gemini · Document AI · TypeScript monorepo |
 | **[Futbol Düellosu](https://github.com/emircanozdag/futbol-duello)** | Real-time 1v1 football trivia game: two clubs, one player, whoever names them first wins. Server-authoritative rooms, a bot opponent and a Wikidata data pipeline. | Node · Socket.IO · React PWA · Python |
-| **[Personal Website](https://github.com/emircanozdag/personal-website)** | 3D portfolio with an LLM chat assistant, admin panel, Playwright e2e tests and Sentry monitoring. | React · Three.js · GSAP · Vercel Functions · Upstash Redis |
+| **[Personal Website](https://github.com/emircanozdag/personal-website)** | My portfolio site, built on an open-source 3D template. I added an LLM chat assistant backend, a JWT-secured admin panel, Playwright e2e tests and Sentry monitoring. | React · Three.js · GSAP · Vercel Functions · Upstash Redis |
 
 ## 🛠️ Tech I work with
 
