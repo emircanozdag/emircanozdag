@@ -16,6 +16,7 @@ I build products end to end: event-driven services with Kafka, RabbitMQ and Redi
 
 | Project | What it is | Stack |
 |---|---|---|
+| **[PolicyHub](https://github.com/emircanozdag/policyhub)** | Motor insurance (Kasko / Traffic) platform covering quoting and policy issuance on Oracle. Premiums are priced with a Strategy pattern per product, and an end-to-end Testcontainers test runs against a real Oracle database. Spring Batch renewals, mainframe file import and AI claim triage are on the roadmap. | Java 21 · Spring Boot · Oracle · Flyway · JUnit 5 · Testcontainers · Docker |
 | **[Telecom Platform](https://github.com/emircanozdag/telecom-platform)** | Event-driven microservices that track mobile data usage, bill overage and alert subscribers. Built around the patterns production systems actually need: transactional outbox, idempotent consumers, retries and dead-letter queues. | .NET 8 · Kafka · RabbitMQ · Redis · PostgreSQL · YARP · Testcontainers |
 | **[Akıllı Hesap Bölüşme](https://github.com/emircanozdag/akilli-hesap-bolusme)** | Cross-platform bill-splitting app: scan a receipt and AI extracts the items, then a tested split engine handles tax, tip and rounding down to the cent. | React Native (Expo) · React · Hono · Gemini · Document AI · TypeScript monorepo |
 | **[Futbol Düellosu](https://github.com/emircanozdag/futbol-duello)** | Real-time 1v1 football trivia game: two clubs, one player, whoever names them first wins. Server-authoritative rooms, a bot opponent and a Wikidata data pipeline. | Node · Socket.IO · React PWA · Python |
@@ -23,7 +24,7 @@ I build products end to end: event-driven services with Kafka, RabbitMQ and Redi
 
 ## 🛠️ Tech I work with
 
-**Backend:** C# · .NET / ASP.NET Core · EF Core · Dapper · Node.js · REST · OAuth 2.0 / JWT
+**Backend:** C# · .NET / ASP.NET Core · EF Core · Dapper · Java · Spring Boot · Node.js · REST · OAuth 2.0 / JWT
 **Frontend:** React · TypeScript · React Native (Expo) · Vite · Three.js
 **Data & messaging:** PostgreSQL · MSSQL · Oracle · Redis · Kafka · RabbitMQ
 **DevOps:** Docker · Kubernetes · Azure DevOps · GitHub Actions · Vercel
